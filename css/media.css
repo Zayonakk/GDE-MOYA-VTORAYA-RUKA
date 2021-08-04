@@ -1,0 +1,105 @@
+@media ( max-width:425px ) {
+    .user-profile--nickname {
+      margin-left: -180px;
+      margin-top: 190px;
+    }
+    .user-profile--lastactive {
+      height: 17px;
+      display: flex;
+      margin-left: -275px;
+      position: relative;
+      top: -32px;
+    }
+    .user-profile--btn {
+      margin-top: 55px;
+    }
+    .profile-user--container {
+      height: 730px;
+      margin: 0%;
+      max-width: 603px;
+      width: 100%;
+      font-family: 'Montserrat';
+    }
+    .user-profile--info-user {
+      text-align: left;
+      margin-top: 350px;
+      margin-left: 15px;
+    }
+    .user-profile--info-def {
+      text-align: left;
+      margin-top: 340px;
+      margin-left: -169px;
+    }
+    .info-user--blockthree {
+      margin-top: 16px;
+    }
+    .info-user--blocktwo {
+      margin-top: 19px;
+    }
+    
+    .user-selled--accounts {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 14px;
+      color: #2B83EB;
+    }
+    
+    .function-btn {
+    display: block;
+    margin-top: -150px;
+    }
+
+    .function-btn--arb{
+      margin-left: 218px; 
+      margin-top: -30px; 
+    }
+
+    .function-btn--offer{
+     margin-left: 35px;  
+    }
+
+    .function-btn--blocked{
+      margin-left: 126px;
+      margin-top: 5px;
+    }
+
+  .filter-accounts-btn {
+     margin-left: 97px;
+  }
+}
+
+
+
+@media ( max-width:375px ) {
+  .function-btn {
+    display: block;
+    margin-top: -150px;
+    margin-left: -25px;
+  }
+
+  .filter-accounts-btn {
+    margin-left: 75px;
+  }
+
+}
+
+@media ( max-width:320px ) {
+  .filter-accounts-btn {
+    margin-left: 50px;
+  }
+
+  .function-btn button {
+    max-width: 145px;
+  }
+
+  .function-btn--arb {
+    margin-left: 190px;
+    margin-top: -30px;
+  }
+
+  .function-btn--blocked {
+    margin-left: 110px;
+  }
+}
